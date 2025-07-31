@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>MF Sewa Bus Bekasi</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      padding: 100px 20px;
+      min-height: 100vh;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    body {
+      padding-top: 70px; /* prevent content being hidden under navbar */
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 75px;"></img></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Sections -->
+  <section id="home" class="bg-light">
+    <div class="hero-section">
+    <div class="text-container">
+      <h4>Tour & Travel No.1 Di Kota Bekasi</h4>
+      <h1>Provides <br />Your Needs <br />With MF Rent Car, Bus, Tour and Travel!</h1>
+      <p>
+        Rencanakan Perjalanan Anda Bersama Kami!
+      </p>
+    </div>
+    <div class="image-container">
+      <img src="img/logo.png" alt="Maskot Siliwangi Holiday">
+    </div>
+  </div>
+  </section>
+
+  <section id="about" class="bg-white">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>This is the about section.</p>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>Here are our services.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-white">
+    <div class="container">
+      <h1>Contact</h1>
+      <p>Contact us here.</p>
+    </div>
+  </section>
+
+  
+</body>
+</html>
+
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/6289621955326" id="wa-float" class="wa-float" target="_blank">
+  <i class="bi bi-whatsapp wa-icon"></i>
+  <script src="scripts/popupwa.js"></script>
+</a>
+
+<!-- Tombol Back to Top -->
+<button onclick="scrollToTop()" id="backToTopBtn" class="backToTopBtn" title="Kembali ke atas">
+  <i class="fa fa-arrow-up"></i>
+  <script src="scripts/backtotop.js">
+  </script>
+</button>
+
+<!-- FOOTER -->
+<footer class="bg-footer text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+      <!-- Kolom 1: Logo dan deskripsi -->
+      <div class="col-md-4 mb-4">
+        <img src="img/logo.png" alt="Logo" class="mb-3" width="150">
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <ul class="list-unstyled small">
+          <li><i class="bi bi-geo-alt me-2"></i> 256 Elizabeth Ave, CA, 90025</li>
+          <li><i class="bi bi-telephone me-2"></i> +569 2316 2156</li>
+          <li><i class="bi bi-envelope me-2"></i> info@travelin.com</li>
+        </ul>
+      </div>
+
+      <!-- Kolom 2: Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold border-bottom pb-2 mb-3">Quick Link</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Our Team</a></li>
+          <li><a href="#" class="footer-link">Portfolio</a></li>
+          <li><a href="#" class="footer-link">FAQ</a></li>
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+          <li><a href="#" class="footer-link">Customer Service</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolom 3: Categories -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold border-bottom pb-2 mb-3">Categories</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Travel</a></li>
+          <li><a href="#" class="footer-link">Technology</a></li>
+          <li><a href="#" class="footer-link">Lifestyle</a></li>
+          <li><a href="#" class="footer-link">Entertainment</a></li>
+          <li><a href="#" class="footer-link">Business</a></li>
+          <li><a href="#" class="footer-link">Destination</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolom 4: Newsletter -->
+      <div class="col-md-4 mb-4">
+        <h6 class="fw-bold border-bottom pb-2 mb-3">Newsletter</h6>
+        <p>Join our community of over 200,000 global readers who receive emails filled with news, promotions, and other good stuff.</p>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <button type="submit" class="btn btn-light text-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bawah Footer -->
+    <div class="d-flex justify-content-between align-items-center pt-3 mt-3 border-top text-white-50 small flex-column flex-md-row">
+      <div>2025 MF Rent Car, Bus, Tour and Travel All rights reserved</div>
+      <div class="mt-2 mt-md-0">
+        <a href="https://www.instagram.com/mf.rentcartourandtravel?igsh=MTRobTh1ZXlnYWxqcg==" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.tiktok.com/@mfsewabuswisata?_t=ZS-8yUb0qXOyqm&_r=1" class="text-white me-3"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
